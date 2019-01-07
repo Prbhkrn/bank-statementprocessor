@@ -1,0 +1,9 @@
+<records>
+  <record reference="123">
+    <accountNumber>A23</accountNumber>
+    <description>Junit Test</description>
+    <startBalance>1.00</startBalance>
+    <mutation>2.00</mutation>
+    <endBalance>3.00</endBalance>
+  </record>  
+</records>
