@@ -7,7 +7,7 @@ Running the application,
 Run using Postman or SoapUI or Browser for running the Rest service.
 http://localhost:8085/customer-api/getStatement?type=xml
 http://localhost:8085/customer-api/getStatement?type=csv
-http://localhost:8085/v2/api-docs
+Swagger:
 http://localhost:8085/swagger-ui.html
 
 Output:
@@ -20,8 +20,9 @@ generated with reference and description.
 Note:
 Used Techniques for Implementation:
 -	SpringBoot and Maven
--   Sonarlint for quality(Attached)
--   Swagger for Rest API's
+-   Sonarlint for quality(SonarLint.jpj Attached).
+-   Jacoco plugin for code coverage(CodeCoverage.jpg and /target/site/jacoco/index.html )
+-   Swagger for Rest API's (http://localhost:8085/swagger-ui.html)
 -	Factory Design Pattern (ParserFactory.java class)
 -	Stream, Filter, Map, Collect from Java 8
 -	JAXBContext for marshalling and unmarshalling
